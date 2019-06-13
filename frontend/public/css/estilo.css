@@ -1,9 +1,22 @@
-.img {
-  min-width: 160px !important;
-}
+/*.img {*/
+/*  min-width: 160px !important;*/
+/*}*/
 
 .tamanho-minimo-estatisticas {
+  width: 18rem;
   min-width: 200px;
+  max-width: 250px;
+}
+.mais-noticias {
+  margin: 2em;
+  padding: 2em;
+  background-color: #F3F3F3;
+
+}
+
+/*Ajusta o conteúdo à altura do navbar*/
+.div-main {
+  margin-top: 180px;
 }
 
 /*
