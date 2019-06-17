@@ -1,8 +1,7 @@
 import React from 'react';
 import Carrossel from './Carrossel';
 import Mural from './MuralNoticias';
-import Estatisticas from './Estatisticas';
-import { Link } from "react-router-dom";
+import Estatistica from './Estatistica';
 
 export default class Principal extends React.Component<> {
 
@@ -11,7 +10,7 @@ export default class Principal extends React.Component<> {
       <div>
         <Carrossel/>
         <Mural/>
-        <Estatisticas/>
+        <Estatistica/>
       </div>
     );
   }

@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
-export default class Convenios extends React.Component<> {
+export default class Convenio extends React.Component<> {
 
     render() {
 
         return(
-            <div style={{marginTop: '30%'}}>
+            <div className="container div-main">
                 <h1> Convênios </h1>
             </div>
         );

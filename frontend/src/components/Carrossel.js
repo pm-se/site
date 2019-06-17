@@ -33,8 +33,8 @@ export default class Carrossel extends React.Component<> {
                 {
                     imgs.map((v, k) => {
                         return (
-                            <div className="item"  key={k}>
-                                <h4>{v.label}</h4>
+                            <div className="item" style={{marginTop: '160px'}} key={k}>
+                                {/*<h4>{v.label}</h4>*/}
                                 <img src={v.src} alt={v.label}/>
                             </div>
                         );

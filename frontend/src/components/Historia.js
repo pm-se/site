@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 export default class Historia extends React.Component<> {
 
   render() {
 
       return(
-        <div style={{marginTop: '30%'}}>
+        <div className="container div-main">
           <h1> Historia </h1>
         </div>
       );
