@@ -69,7 +69,7 @@ export default class Topo extends React.Component<> {
                                         <Link to="/despesas" className="dropdown-item" >Despesas</Link>
                                         <Link to="/convenios" className="dropdown-item" >Convênios</Link>
                                         <Link to="/diarias" className="dropdown-item" >Diárias</Link>
-                                        <a href="http://www.transparenciasergipe.se.gov.br/TRS/" target="_blank"className="dropdown-item">Transparência</a>
+                                        <a href="http://www.transparenciasergipe.se.gov.br/TRS/" target="_blank" rel="noopener noreferrer" className="dropdown-item">Transparência</a>
                                     </div>
                                 </li>
 
