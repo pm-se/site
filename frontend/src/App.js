@@ -27,7 +27,7 @@ function App() {
     return (
         <Router>
             <Topo/>
-            <Route path="/" exact="/" component={Principal}/>
+            <Route path="/" exact component={Principal}/>
             <Route path="/historia" component={Historia}/>
             <Route path="/missao" component={Missao}/>
             <Route path="/comandante_geral" component={ComandanteGeral}/>

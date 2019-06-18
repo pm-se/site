@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-export default class Rodape extends React.Component<> {
+export default class Rodape extends React.Component {
 
     render() {
         return (
