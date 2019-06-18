@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Organizacao extends React.Component<> {
+export default class Organizacao extends React.Component {
 
     render() {
 

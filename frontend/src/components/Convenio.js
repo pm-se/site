@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Convenio extends React.Component<> {
+export default class Convenio extends React.Component {
 
     render() {
 

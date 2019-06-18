@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class NoticiasEspecializada extends React.Component<> {
+export default class NoticiasEspecializada extends React.Component {
 
     render() {
 

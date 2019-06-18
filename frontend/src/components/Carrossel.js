@@ -3,7 +3,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-export default class Carrossel extends React.Component<> {
+export default class Carrossel extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -21,7 +21,7 @@ export default class Carrossel extends React.Component<> {
 
 
     render() {
-        let imgs = new Array();
+        let imgs = [];
 
         imgs.push({'src': process.env.PUBLIC_URL+'img/01.jpg', 'label': 'Getan 01'});
         imgs.push({'src': process.env.PUBLIC_URL+'img/01.jpg', 'label': 'Getan 01'});
@@ -33,7 +33,7 @@ export default class Carrossel extends React.Component<> {
                 {
                     imgs.map((v, k) => {
                         return (
-                            <div className="item" style={{marginTop: '160px'}} key={k}>
+                            <div className="item" style={{marginTop: '104px'}} key={k}>
                                 {/*<h4>{v.label}</h4>*/}
                                 <img src={v.src} alt={v.label}/>
                             </div>

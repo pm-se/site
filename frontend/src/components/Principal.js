@@ -3,7 +3,7 @@ import Carrossel from './Carrossel';
 import Mural from './MuralNoticias';
 import Estatistica from './Estatistica';
 
-export default class Principal extends React.Component<> {
+export default class Principal extends React.Component {
 
   render() {
     return (

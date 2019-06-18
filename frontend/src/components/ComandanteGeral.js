@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ComandanteGeral extends React.Component<> {
+export default class ComandanteGeral extends React.Component {
 
     render() {
 
