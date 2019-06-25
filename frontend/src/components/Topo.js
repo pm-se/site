@@ -53,7 +53,6 @@ export default class Topo extends React.Component {
                                         <Link to="/comandante_geral" className="dropdown-item">Comandante Geral</Link>
                                         <Link to="/organizacao" className="dropdown-item">Organização</Link>
                                         <Link to="/hinos_e_cancoes" className="dropdown-item">Hinos e Canções</Link>
-                                        <Link to="/cursos" className="dropdown-item">Cursos</Link>
                                         <Link to="/legislacao" className="dropdown-item">Legislação</Link>
                                         <Link to="/ex-comandantes_gerais" className="dropdown-item">Ex-Comandantes Gerais</Link>
                                     </div>
@@ -96,6 +95,20 @@ export default class Topo extends React.Component {
                                         <Link to="/" className="dropdown-item">Edital</Link>
                                     </div>
                                 </li>
+
+                                <li className="nav-item dropdown">
+                                    <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Para o PM
+                                    </a>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="http://187.17.2.14/portalservidor/#/login" target="_blank" rel="noopener noreferrer" className="dropdown-item">Contracheque</a>
+                                        <Link to="/cursos" className="dropdown-item">Cursos</Link>
+                                        <a href="http://intranet.pm.se.gov.br/portal/" target="_blank" rel="noopener noreferrer" className="dropdown-item" alt="Portal da PMSE">Extranet</a>
+                                        <a href="http://portal.ead.senasp.gov.br/home" target="_blank" rel="noopener noreferrer" className="dropdown-item">Rede EaD</a>
+                                        <a href="https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf" target="_blank" rel="noopener noreferrer" className="dropdown-item">Sinesp</a>
+                                    </div>
+                                </li>
+
                             </ul>
                         </div>
                         <button type="button" className="btn btn-link nav-search navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
