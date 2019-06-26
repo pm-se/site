@@ -103,7 +103,7 @@ export default class Topo extends React.Component {
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="http://187.17.2.14/portalservidor/#/login" target="_blank" rel="noopener noreferrer" className="dropdown-item">Contracheque</a>
                                         <Link to="/cursos" className="dropdown-item">Cursos</Link>
-                                        <a href="http://intranet.pm.se.gov.br/portal/" target="_blank" rel="noopener noreferrer" className="dropdown-item" alt="Portal da PMSE">Extranet</a>
+                                        <a href="http://intranet.pm.se.gov.br/portal/" target="_blank" rel="noopener noreferrer" className="dropdown-item" alt="Portal da PMSE">Extranet(Portal)</a>
                                         <a href="http://portal.ead.senasp.gov.br/home" target="_blank" rel="noopener noreferrer" className="dropdown-item">Rede EaD</a>
                                         <a href="https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf" target="_blank" rel="noopener noreferrer" className="dropdown-item">Sinesp</a>
                                     </div>
