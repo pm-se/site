@@ -1,4 +1,4 @@
-package br.com.pmse.pmse;
+package br.com.pmse;
 
 //@RunWith(SpringRunner.class)
 //@SpringBootTest

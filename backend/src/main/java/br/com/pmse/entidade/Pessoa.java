@@ -1,4 +1,4 @@
-package br.com.pmse.pmse.entidade;
+package br.com.pmse.entidade;
 
 import javax.persistence.*;
 

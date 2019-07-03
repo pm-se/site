@@ -19,6 +19,7 @@ import NoticiasAcaoSocial from './components/NoticiasAcaoSocial';
 import NoticiasCapital from './components/NoticiasCapital';
 import NoticiasInterior from './components/NoticiasInterior';
 import NoticiasEspecializadas from './components/NoticiasEspecializada';
+import Noticia from './components/Noticia';
 
 import {BrowserRouter as Router, Route} from "react-router-dom";
 
@@ -45,6 +46,7 @@ function App() {
             <Route path="/capital" component={NoticiasCapital}/>
             <Route path="/interior" component={NoticiasInterior}/>
             <Route path="/especializadas" component={NoticiasEspecializadas}/>
+            <Route path="/noticia/{this.props.id}" component={Noticia} />
             <Rodape/>
         </Router>
     );
