@@ -1,30 +1,34 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from "react";
 
-export default class Noticia extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    // }
+export default class Noticia extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      id: "",
+      noticia: {}
+    };
+  }
 
-    render() {
+  componentDidMount() {
+    let url = "http://localhost:8080/noticia/" + this.props.id;
+    fetch(url)
+      .then(resposta => resposta.json())
+      .then(dados => this.setState({ noticia: dados }));
+  }
 
-        return(
-            <div>
-                <Link to={"noticia?id="+this.props.id}>
-                <div className={this.props.grid}>
-                    <figure className="thumbnail">
-                        <img src={this.props.srcImagem}
-                             className="img-fluid"
-                             alt=""
-                        />
-                        <figcaption className="caption">
-                            <h5>{this.props.titulo}</h5>
-                        </figcaption>
-                    </figure>
-                </div>
-                </Link>
-            </div>
-
-        );
+  render() {
+    const { noticia } = this.state;
+    let content = '';
+    if (noticia.conteudo) {
+      console.log(noticia);
+      content = noticia.conteudo.blocks.map((valor, chave) => {
+        return <p>bloco</p>;
+      })
     }
+    return (
+      <div>
+        
+      </div>
+    );
+  }
 }
