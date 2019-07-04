@@ -10,8 +10,8 @@ export default class Noticia extends React.Component {
 
         return(
             <div>
-                <Link to={"noticia?id="+this.props.id}>
-                    <div className={this.props.grid}>
+                <Link to={"noticia/"+this.props.id}>
+                    <div>
                         <figure className="thumbnail">
                             <img src={this.props.srcImagem}
                                 className="img-fluid"
