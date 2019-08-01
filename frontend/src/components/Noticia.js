@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { URL_SERVIDOR } from '../constants';
 
 export default class Noticia extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ export default class Noticia extends Component {
   }
 
   componentDidMount() {
-    let url = "http://localhost:8080/noticia/" + this.props.id;
+    let url = `${ URL_SERVIDOR }/noticia/${this.props.id}`;
     fetch(url)
       .then(resposta => resposta.json())
       .then(dados => this.setState({ noticia: dados }));

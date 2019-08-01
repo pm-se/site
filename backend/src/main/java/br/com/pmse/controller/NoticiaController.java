@@ -27,4 +27,6 @@ public class NoticiaController {
     public Noticia findById(@PathVariable(name = "id") Integer id) {
         return noticiaRepository.findById(id).get();
     }
+
+
 }
