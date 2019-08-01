@@ -1,0 +1,81 @@
+/* ..................................................................................................... */
+/* ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+  background: black !important;
+  color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+  color: white !important;
+}
+
+.contrast a {
+  color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type="button"],
+.contrast input[type="reset"],
+.contrast input[type="submit"] {
+  background: white !important;
+  color: yellow !important;
+  border: none !important;
+}
+
+.contrast input[type="text"],
+.contrast input[type="password"],
+.contrast input[type="url"],
+.contrast input[type="search"],
+.contrast input[type="email"],
+.contrast input[type="tel"],
+.contrast input[type="date"],
+.contrast input[type="month"],
+.contrast input[type="week"],
+.contrast input[type="datetime"],
+.contrast input[type="datetime-local"],
+.contrast textarea,
+.contrast input[type="number"] {
+  background: black !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+  filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+  filter: brightness(0) invert(1);
+}
+
+.contrast .icon-bar {
+  background-color: white !important;
+}
+.contrast .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

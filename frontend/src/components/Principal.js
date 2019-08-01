@@ -1,7 +1,8 @@
 import React from 'react';
 import Carrossel from './Carrossel';
-import Mural from './MuralNoticias';
+// import Mural from './MuralNoticias';
 import Estatistica from './Estatistica';
+import Leitor from './Leitor';
 
 export default class Principal extends React.Component {
 
@@ -9,7 +10,8 @@ export default class Principal extends React.Component {
     return (
       <div>
         <Carrossel/>
-        <Mural/>
+        {/* <Mural/> */}
+        <Leitor/>
         <Estatistica/>
       </div>
     );

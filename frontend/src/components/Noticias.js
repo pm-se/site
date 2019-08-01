@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { URL_SERVIDOR } from '../constants';
 
 export default class Noticias extends Component {
 
@@ -10,7 +11,7 @@ export default class Noticias extends Component {
     }
 
     componentDidMount() {
-        let url = "http://localhost:8080/listarTodas";
+        let url = `${ URL_SERVIDOR }/listarTodas`;
         fetch(url)
         .then(resp => resp.json())
         .then(data => {

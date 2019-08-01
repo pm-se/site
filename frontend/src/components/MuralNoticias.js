@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import NoticiaThumb from "./NoticiaThumb";
+import { URL_SERVIDOR } from '../constants';
 
 export default class MuralNoticias extends React.Component {
     constructor(props) {
@@ -11,7 +12,7 @@ export default class MuralNoticias extends React.Component {
     }
 
     componentDidMount() {
-        let url = "http://localhost:8080/listarTodas";
+        let url = `${ URL_SERVIDOR }/listarTodas`;
         fetch(url)
             .then(resp => resp.json())
             .then(data => this.setState({news: data}));

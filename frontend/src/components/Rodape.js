@@ -7,7 +7,7 @@ export default class Rodape extends React.Component {
         return (
             <div>
 
-                <section className="section-footer">
+                <section className="section-footer" role="contentinfo">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col-md-4">
@@ -168,7 +168,7 @@ export default class Rodape extends React.Component {
                     </div>
                 </div>
 
-                <footer>
+                <footer role="complementary">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">

@@ -3,7 +3,7 @@
     "id": 1,
     "dataCriacao": "2019-07-02T12:39:46.000+0000",
     "dataPublicacao": "2019-07-02T13:50:00.000+0000",
-    "titulo": "This is it",
+    "titulo": "NEWS ONE",
     "conteudo": {
       "time": 1562071182791,
       "blocks": [
@@ -31,7 +31,7 @@
     "id": 2,
     "dataCriacao": "2019-07-02T14:36:22.000+0000",
     "dataPublicacao": "2019-07-02T14:00:00.000+0000",
-    "titulo": "Criando nova noticia",
+    "titulo": "A PMSE garante a segurança do clássico Confiança x Sergipe, com o uso de novas tecnologias",
     "conteudo": {
       "time": 1562078176922,
       "blocks": [
@@ -39,8 +39,8 @@
           "type": "embed",
           "data": {
             "service": "youtube",
-            "source": "https://youtu.be/GLKFwy-8dWc",
-            "embed": "https://www.youtube.com/embed/GLKFwy-8dWc",
+            "source": "https://youtu.be/2J-lTu9-k9A",
+            "embed": "https://www.youtube.com/embed/2J-lTu9-k9A",
             "width": 580,
             "height": 320,
             "caption": "Crazy Hacker"
@@ -54,14 +54,17 @@
       "id": 593,
       "nome": "Ações Sociais"
     },
-    "autor": null,
+    "autor": {
+      "id": 5589,
+      "nome": "DIEGO SANTOS DE ANDRADE"
+    },
     "status": null
   },
   {
     "id": 3,
     "dataCriacao": "2019-07-02T14:37:58.000+0000",
     "dataPublicacao": "2019-07-02T13:00:00.000+0000",
-    "titulo": "Guanabara",
+    "titulo": "O Grupamento Especial Tático de Motos (Getam) completou 10 anos de fundação",
     "conteudo": {
       "time": 1562078272893,
       "blocks": [
@@ -69,8 +72,8 @@
           "type": "embed",
           "data": {
             "service": "youtube",
-            "source": "https://youtu.be/6nN2EglOqCM?list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV",
-            "embed": "https://www.youtube.com/embed/6nN2EglOqCM",
+            "source": "https://youtu.be/GHrJSkAt8JQ",
+            "embed": "https://www.youtube.com/embed/GHrJSkAt8JQ",
             "width": 580,
             "height": 320,
             "caption": "Curso de Linux - Primeiros Passos - Trailer"
