@@ -1,46 +1,46 @@
 import React, { Component } from "react";
 import { URL_SERVIDOR } from "../constants";
+import { Chart } from "react-google-charts";
 
 class ListaVeiculosApreendidos extends Component {
   constructor(props) {
     super(props);
     this.state = {
       veiculos: [],
+      Data: [],
       loading: true
     };
   }
 
   componentDidMount() {
-    fetch(`${URL_SERVIDOR}/veiculos`)
+    fetch(`${URL_SERVIDOR}/armas_apreendidas`)
       .then(response => response.json())
-      .then(responseData =>
-        this.setState({ veiculos: responseData, loading: true })
-      )
+      .then(responseData => {
+        const armas = responseData;
+        const Data = [["Tipo", "Quantidade"]];
+        armas.forEach(element => {
+          Data.push([element.tipo, element.quantidade]);
+        });
+        this.setState({
+          Data: Data,
+          loading: true
+        });
+      })
       .catch(err => console.log(`Descrição do erro: ${err}`));
   }
 
   render() {
-    const { veiculos } = this.state;
+    const { Data } = this.state;
     return (
       <div className="div-main">
-        <table className="table table-striped table-bordered">
-          <thead>
-            <tr>
-              <th>Placa</th>
-              <th>Chassi</th>
-            </tr>
-          </thead>
-          <tbody>
-            {veiculos.map((veiculo, index) => {
-              return (
-                <tr key={index}>
-                  <td>{veiculo.placa}</td>
-                  <td>{veiculo.chassi}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+        <Chart
+          chartType="PieChart"
+          data={Data}
+          options={{
+            title: "Armas apreendidas",
+            is3D: true
+          }}
+        />
       </div>
     );
   }
