@@ -6,14 +6,13 @@ class ListaVeiculosApreendidos extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      veiculos: [],
       Data: [],
       loading: true
     };
   }
 
   componentDidMount() {
-    fetch(`${URL_SERVIDOR}/armas_apreendidas`)
+    fetch(`${URL_SERVIDOR}/veiculos_apreendidos`)
       .then(response => response.json())
       .then(responseData => {
         const armas = responseData;
@@ -37,7 +36,7 @@ class ListaVeiculosApreendidos extends Component {
           chartType="PieChart"
           data={Data}
           options={{
-            title: "Armas apreendidas",
+            title: "Veículos apreendidos",
             is3D: true
           }}
         />

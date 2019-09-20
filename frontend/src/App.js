@@ -2,7 +2,7 @@ import React from 'react';
 import Topo from './components/Topo';
 import Rodape from './components/Rodape';
 import Principal from './components/Principal';
-import Historia from './components/ListaVeiculosApreendidos';
+import Historia from './components/Historia';
 import Missao from './components/Missao';
 import ComandanteGeral from './components/ComandanteGeral';
 import Organizacao from './components/Organizacao';
@@ -10,7 +10,7 @@ import HinosCancoes from './components/HinosCancoes';
 import Cursos from './components/Curso';
 import Legislacao from './components/Legislacao';
 import ExComandantesGerias from './components/ExComandantesGerais';
-import Contratos from './components/Contrato';
+import Efetivo from './components/Efetivo';
 import Licitacoes from './components/Licitacao';
 import Despesas from './components/Despesa';
 import Convenios from './components/Convenio';
@@ -37,7 +37,7 @@ function App() {
             <Route path="/cursos" component={Cursos}/>
             <Route path="/legislacao" component={Legislacao}/>
             <Route path="/ex-comandantes_gerais" component={ExComandantesGerias}/>
-            <Route path="/contratos" component={Contratos}/>
+            <Route path="/efetivo" component={Efetivo}/>
             <Route path="/licitacoes" component={Licitacoes}/>
             <Route path="/despesas" component={Despesas}/>
             <Route path="/convenios" component={Convenios}/>
