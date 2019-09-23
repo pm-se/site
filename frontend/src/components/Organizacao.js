@@ -7,7 +7,7 @@ export default class Organizacao extends React.Component {
         return (
             <div className="container div-main">
                 <img
-                    src={process.env.PUBLIC_URL + '/img/2018-organograma.jpg'}
+                    src={process.env.PUBLIC_URL + '/img/organograma.png'}
                     className="img-fluid"
                     alt=""
                 />

@@ -7,6 +7,9 @@ export default class Legislacao extends React.Component<> {
         return(
             <div className="container div-main">
 
+<br></br>
+                <br></br>
+
                 <p><strong>Legislação Internacional</strong></p>
                 <p><a href="http://www.pm.se.gov.br/wp-content/uploads/2013/07/Declaração-Universal-dos-Direitos-Humanos.pdf" target="_blank" rel="noopener noreferrer">Declaração Universal dos Direitos Humanos</a></p>
                 <p><strong><br/>

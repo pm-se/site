@@ -7,12 +7,14 @@ import Missao from './components/Missao';
 import ComandanteGeral from './components/ComandanteGeral';
 import Organizacao from './components/Organizacao';
 import HinosCancoes from './components/HinosCancoes';
-import Cursos from './components/Curso';
+import AquisicaoArma from './components/AquisicaoArma';
 import Legislacao from './components/Legislacao';
 import ExComandantesGerias from './components/ExComandantesGerais';
 import Efetivo from './components/Efetivo';
 import Licitacoes from './components/Licitacao';
 import Despesas from './components/Despesa';
+import Receitas from './components/Receita';
+import Relatorios from './components/Relatorios';
 import Convenios from './components/Convenio';
 import Diarias from './components/Diaria';
 import NoticiasAcaoSocial from './components/NoticiasAcaoSocial';
@@ -34,14 +36,16 @@ function App() {
             <Route path="/comandante_geral" component={ComandanteGeral}/>
             <Route path="/organizacao" component={Organizacao}/>
             <Route path="/hinos_e_cancoes" component={HinosCancoes}/>
-            <Route path="/cursos" component={Cursos}/>
+            <Route path="/aquisicao_armamentos" component={AquisicaoArma}/>
             <Route path="/legislacao" component={Legislacao}/>
             <Route path="/ex-comandantes_gerais" component={ExComandantesGerias}/>
             <Route path="/efetivo" component={Efetivo}/>
             <Route path="/licitacoes" component={Licitacoes}/>
             <Route path="/despesas" component={Despesas}/>
+            <Route path="/receitas" component={Receitas}/>
             <Route path="/convenios" component={Convenios}/>
             <Route path="/diarias" component={Diarias}/>
+            <Route path="/relatorios" component={Relatorios}/>
             <Route path="/acoes_sociais" component={NoticiasAcaoSocial}/>
             <Route path="/capital" component={NoticiasCapital}/>
             <Route path="/interior" component={NoticiasInterior}/>

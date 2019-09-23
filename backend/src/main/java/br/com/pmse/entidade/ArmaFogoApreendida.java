@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name="armas_apreendidas")
+@Table(name = "view_armas_apreendidas")
 public class ArmaFogoApreendida implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -15,10 +15,10 @@ public class ArmaFogoApreendida implements Serializable {
     @Id
     private Long id;
 
-    @Column(name="Quantidade")
+    @Column(name = "Quantidade")
     private Integer quantidade;
 
-    @Column(name="Tipo")
+    @Column(name = "Tipo")
     private String tipo;
 
     public ArmaFogoApreendida() {
@@ -32,24 +32,15 @@ public class ArmaFogoApreendida implements Serializable {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Integer getQuantidade() {
         return quantidade;
     }
 
-    public void setQuantidade(Integer quantidade) {
-        this.quantidade = quantidade;
-    }
 
     public String getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
 }
 
