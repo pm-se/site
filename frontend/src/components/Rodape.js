@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+
 export default class Rodape extends React.Component {
 
     render() {
@@ -18,7 +19,8 @@ export default class Rodape extends React.Component {
                                     <div className="w-body-a">
                                         <ul className="list-unstyled">
                                             <li className="color-a">
-                                                <span className="color-text-a">Rua Itabaiana, </span> 336<span className="color-text-a">, Centro</span>
+                                                <span className="color-text-a">Rua Itabaiana, </span> 336<span
+                                                className="color-text-a">, Centro</span>
                                             </li>
                                             <li className="color-a">
                                                 <span className="color-text-a"> Aracaju-SE, CEP :</span> 49010-170
@@ -45,25 +47,39 @@ export default class Rodape extends React.Component {
                                         <div className="w-body-a">
                                             <ul className="list-unstyled">
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://agencia.se.gov.br/" target="_blank" rel="noopener noreferrer">Agência Sergipe de Notícias</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://agencia.se.gov.br/" target="_blank"
+                                                    rel="noopener noreferrer">Agência Sergipe de Notícias</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://www.ssp.se.gov.br/" target="_blank" rel="noopener noreferrer">Secretaria de Segurança Pública</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://www.ssp.se.gov.br/" target="_blank"
+                                                    rel="noopener noreferrer">Secretaria de Segurança Pública</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://www.policiacivil.se.gov.br/" target="_blank" rel="noopener noreferrer">Polícia Civil</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://www.policiacivil.se.gov.br/" target="_blank"
+                                                    rel="noopener noreferrer">Polícia Civil</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="https://www.cbm.se.gov.br/" target="_blank" rel="noopener noreferrer">Corpo de Bombeiros Militar</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="https://www.cbm.se.gov.br/" target="_blank"
+                                                    rel="noopener noreferrer">Corpo de Bombeiros Militar</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://www.detran.se.gov.br/novo_inicio.asp" target="_blank" rel="noopener noreferrer">Detran</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://www.detran.se.gov.br/novo_inicio.asp" target="_blank"
+                                                    rel="noopener noreferrer">Detran</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://www.ipesaude.se.gov.br/ipesaude/inicio.aspx" target="_blank" rel="noopener noreferrer">Ipesaúde</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://www.ipesaude.se.gov.br/ipesaude/inicio.aspx"
+                                                    target="_blank" rel="noopener noreferrer">Ipesaúde</a>
                                                 </li>
                                                 <li className="item-list-a">
-                                                    <i className="fa fa-chevron-circle-right"></i> <a href="http://187.17.2.14/portalservidor/#/login" target="_blank" rel="noopener noreferrer">SEAD/Contracheque</a>
+                                                    <i className="fa fa-chevron-circle-right"></i> <a
+                                                    href="http://187.17.2.14/portalservidor/#/login" target="_blank"
+                                                    rel="noopener noreferrer">SEAD/Contracheque</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -78,28 +94,36 @@ export default class Rodape extends React.Component {
                                     <div className="w-body-a">
                                         <ul className="list-unstyled">
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <Link to="/Organizacao">Estrutura Organizacional</Link>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link to="/Organizacao">Estrutura
+                                                Organizacional</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <Link to="/legislacao">Legislação</Link>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link
+                                                to="/legislacao">Legislação</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Licitações e Contratos</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link to="/licitacoes">Licitações
+                                                e Contratos</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Receitas</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link
+                                                to="/receitas">Receitas</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Despesas</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link
+                                                to="/despesas">Despesas</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Relatórios e Prestação de Contas</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link to="/relatorios">Relatórios
+                                                e Prestação de Contas</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Planejamento</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link
+                                                to="/planejamento">Planejamento</Link>
                                             </li>
                                             <li className="item-list-a">
-                                                <i className="fa fa-chevron-circle-right"></i> <a href="/">Pessoal</a>
+                                                <i className="fa fa-chevron-circle-right"></i> <Link
+                                                to="/efetivo">Efetivo</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -117,11 +141,12 @@ export default class Rodape extends React.Component {
                                      className="image-fluid img"
                                      alt="lei de acesso a informacao"
                                      width="100%"
-                                     height="auto" />
+                                     height="auto"/>
                             </a>
                         </div>
                         <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                            <a href="http://www.transparenciasergipe.se.gov.br/TRS/" target="_blank" rel="noopener noreferrer">
+                            <a href="http://www.transparenciasergipe.se.gov.br/TRS/" target="_blank"
+                               rel="noopener noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/img/transparencia.png'}
                                      className="image-fluid img"
                                      alt="transparencia sergipe"
@@ -148,7 +173,8 @@ export default class Rodape extends React.Component {
                             </a>
                         </div>
                         <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2">
-                            <a href="http://igesp.sefaz.gov-se/sfi_com_sca/PRMontarMenuAcesso" target="_blank" rel="noopener noreferrer">
+                            <a href="http://igesp.sefaz.gov-se/sfi_com_sca/PRMontarMenuAcesso" target="_blank"
+                               rel="noopener noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/img/igesp.png'}
                                      className="image-fluid img"
                                      alt="igesp"
@@ -176,22 +202,26 @@ export default class Rodape extends React.Component {
                                 <div className="socials-a">
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="https://www.instagram.com/pmsergipe/" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.instagram.com/pmsergipe/" target="_blank"
+                                               rel="noopener noreferrer">
                                                 <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="https://www.facebook.com/sergipepm" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.facebook.com/sergipepm" target="_blank"
+                                               rel="noopener noreferrer">
                                                 <i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="https://www.youtube.com/user/pmsergipe" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.youtube.com/user/pmsergipe" target="_blank"
+                                               rel="noopener noreferrer">
                                                 <i className="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
                                             </a>
                                         </li>
                                         <li className="list-inline-item">
-                                            <a href="https://twitter.com/pmsergipe" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://twitter.com/pmsergipe" target="_blank"
+                                               rel="noopener noreferrer">
                                                 <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
                                             </a>
                                         </li>

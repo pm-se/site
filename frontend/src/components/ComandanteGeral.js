@@ -17,9 +17,7 @@ export default class ComandanteGeral extends React.Component {
                          className="img-fluid"
                          alt=""
                     />
-                    <figcaption className="caption">
-                        <h5></h5>
-                    </figcaption>
+                    <figcaption className="caption"></figcaption>
                 </figure>
 
                 <br></br>

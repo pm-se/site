@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/armas_apreendidas")
 @CrossOrigin("*")
+@RequestMapping("/armas_apreendidas")
+
 public class ArmaFogoApreendidaController {
 
     @Autowired
@@ -20,8 +21,7 @@ public class ArmaFogoApreendidaController {
 
     @GetMapping
     public List<ArmaFogoApreendida> listar() {
-        List<ArmaFogoApreendida> arma_fogo_apreendidas = armaFogoApreendidaRepository.findAll();
-        return arma_fogo_apreendidas;
+        return armaFogoApreendidaRepository.findAll();
     }
 
 }
