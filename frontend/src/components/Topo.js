@@ -106,6 +106,9 @@ export default class Topo extends React.Component {
                                             <Link to="/legislacao" className="dropdown-item">
                                                 Legislação
                                             </Link>
+                                            <Link to="/artigos" className="dropdown-item">
+                                                Artigos, Monografias e Ensaios
+                                            </Link>
                                             <Link to="/ex-comandantes_gerais" className="dropdown-item">
                                                 Ex-Comandantes Gerais
                                             </Link>
