@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Historia extends React.Component<> {
+export default class Historia extends React.Component {
 
     render() {
 

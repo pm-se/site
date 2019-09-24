@@ -7,6 +7,7 @@ import Missao from './components/Missao';
 import ComandanteGeral from './components/ComandanteGeral';
 import Organizacao from './components/Organizacao';
 import HinosCancoes from './components/HinosCancoes';
+import Monografias from './components/Monografias';
 import AquisicaoArma from './components/AquisicaoArma';
 import Legislacao from './components/Legislacao';
 import ExComandantesGerias from './components/ExComandantesGerais';
@@ -36,6 +37,7 @@ function App() {
             <Route path="/comandante_geral" component={ComandanteGeral}/>
             <Route path="/organizacao" component={Organizacao}/>
             <Route path="/hinos_e_cancoes" component={HinosCancoes}/>
+            <Route path="/artigos" component={Monografias}/>
             <Route path="/aquisicao_armamentos" component={AquisicaoArma}/>
             <Route path="/legislacao" component={Legislacao}/>
             <Route path="/ex-comandantes_gerais" component={ExComandantesGerias}/>

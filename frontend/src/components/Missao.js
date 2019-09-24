@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Missao extends React.Component<> {
+export default class Missao extends React.Component {
 
     render() {
 

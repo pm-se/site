@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Licitacao extends React.Component<> {
+export default class Licitacao extends React.Component {
 
     render() {
 
