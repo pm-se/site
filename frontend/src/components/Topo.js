@@ -204,7 +204,7 @@ export default class Topo extends React.Component {
                                             className="dropdown-menu"
                                             aria-labelledby="navbarDropdown"
                                         >
-                                            <Link to="/como_ingressar" className="dropdown-item">
+                                            <Link to="/unidades_especializadas" className="dropdown-item">
                                                 Como ingressar
                                             </Link>
                                             <Link to="/" className="dropdown-item">
