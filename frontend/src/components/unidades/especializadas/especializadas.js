@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default class especializadas extends Component {
   render() {
     return (
-      <div className="container div-main">
+      <div className="container div-main center">
         <h1> Unidades de Policiamento Especializado </h1>
 
         <br />
@@ -20,11 +20,11 @@ export default class especializadas extends Component {
         <br />
         <br />
 
-        <div className="row">
+        <div className="row justify-content-center">
 
-        <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+        <div className="card  mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" align="center">
             <Link to ="/bpchoque" className="btn btn-primary">BPCHOQUE</Link>
-            <div className="card-body text-success">
+            <div className="card-body text-success center">
             <Link to="/bpchoque">
               <figure className="thumbnail">
                 <img
@@ -38,14 +38,14 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4 center card-especializadas" >
             <Link to ="/bpgd" className="btn btn-primary">BPGD</Link>
             <div className="card-body text-success">
             <Link to="/bpgd">
               <figure className="thumbnail">
                 <img
                   src={process.env.PUBLIC_URL + "img/logo_pmse_zoom-200x227.png"}
-                  className="img-fluid"
+                  className="img-fluid img-top"
                   alt=""
                 />
               </figure>
@@ -54,7 +54,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/besp" className="btn btn-primary">BESP</Link>
             <div className="card-body text-success">
             <Link to="/besp">
@@ -70,7 +70,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/bprp" className="btn btn-primary">BPRP</Link>
             <div className="card-body text-success">
             <Link to="/bprp">
@@ -86,7 +86,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/bprv" className="btn btn-primary">BPRV</Link>
             <div className="card-body text-success">
             <Link to="/bprv">
@@ -102,7 +102,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/bptur" className="btn btn-primary">BPTUR</Link>
             <div className="card-body text-success">
             <Link to="/bptur">
@@ -118,7 +118,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/coe" className="btn btn-primary">COE</Link>
             <div className="card-body text-success">
             <Link to="/coe">
@@ -134,7 +134,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/cptran" className="btn btn-primary">CPTRAN</Link>
             <div className="card-body text-success">
             <Link to="/cptran">
@@ -150,7 +150,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/ciopac" className="btn btn-primary">CIOPAC</Link>
             <div className="card-body text-success">
             <Link to="/ciopac">
@@ -166,7 +166,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/cipcaes" className="btn btn-primary">CIPCAES</Link>
             <div className="card-body text-success">
             <Link to="/cipcaes">
@@ -182,7 +182,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/epmon" className="btn btn-primary">EPMON</Link>
             <div className="card-body text-success">
             <Link to="/epmon">
@@ -198,7 +198,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/getam" className="btn btn-primary">GETAM</Link>
             <div className="card-body text-success">
             <Link to="/getam">
@@ -214,7 +214,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/gati" className="btn btn-primary">GATI</Link>
             <div className="card-body text-success">
             <Link to="/gati">
@@ -230,7 +230,7 @@ export default class especializadas extends Component {
             </div>
           </div>
 
-          <div className="card border-info mb-3 col-sm-6 col-md-4 col-lg-4" style={{ maxWidth: "18rem" }}>
+          <div className="card mb-3 col-sm-6 col-md-4 col-lg-4  card-especializadas" >
             <Link to ="/ppamb" className="btn btn-primary">PPAMB</Link>
             <div className="card-body text-success">
             <Link to="/ppamb">

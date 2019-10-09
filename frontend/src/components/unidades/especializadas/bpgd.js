@@ -4,11 +4,13 @@ export default class bpgd extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão de Polícia de Guarda </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           O Batalhão de Polícia de Guarda tem suas raízes históricas fixadas na
           fundação da Companhia de Guardas, criada em 1937, através do

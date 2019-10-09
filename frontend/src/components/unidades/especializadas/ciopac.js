@@ -4,9 +4,12 @@ export default class ciopac extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Companhia Independente de Operações Policiais em Área de Caatinga </h1>
 
         <br />
+        <br />
+
+        <h5>Histórico</h5>
         <br />
         <p>
           A Companhia Independente de Operações Policiais em Área de Caatinga
@@ -116,7 +119,6 @@ export default class ciopac extends Component {
 
         <p>Expediente Administrativo: 07h00 às 13h00</p>
         <p>Expediente Operacional: 24 horas</p>
-        
       </div>
     );
   }

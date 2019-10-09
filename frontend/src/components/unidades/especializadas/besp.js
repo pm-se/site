@@ -4,11 +4,13 @@ export default class besp extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão Especial de Segurança Patrimonial </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           A unidade foi criada, de acordo com o Decreto 22381 de 20 de outubro
           de 2003, convocando policiais militares da reserva remunerada da

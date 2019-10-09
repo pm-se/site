@@ -4,11 +4,13 @@ export default class bpchoque extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão de Polícia de Choque </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           A história do Batalhão de Polícia de Choque se inicia com a criação do
           pelotão de Polícia de Choque em 20 de dezembro de 1979, através da Lei

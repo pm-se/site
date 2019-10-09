@@ -4,9 +4,12 @@ export default class epmon extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Esquadrão de Polícia Montada </h1>
 
         <br />
+        <br />
+
+        <h5>Histórico</h5>
         <br />
         <p>
           A Cavalaria da PMSE foi implantada em 1988 pelo então Comandante

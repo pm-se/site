@@ -4,10 +4,13 @@ export default class getam extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Grupamento Especial Tático de Motos </h1>
 
         <br />
         <br />
+        <h5>Histórico</h5>
+        <br />
+        
         <p>
           O Grupamento Especial Tático de Motos (GETAM) foi criado no ano de
           2009, mais precisamente no dia 05 de junho, com a finalidade de

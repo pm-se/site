@@ -4,11 +4,13 @@ export default class bprp extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão de Polícia de Radiopatrulha </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           O Batalhão de Polícia de Radiopatrulha (BPRp) da Polícia Militar de
           Sergipe é um dos mais antigos batalhões independentes da corporação,

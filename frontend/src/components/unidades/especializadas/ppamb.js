@@ -4,9 +4,11 @@ export default class ppamb extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Pelotão de Polícia Ambiental </h1>
 
         <br />
+        <br />
+        <h5>Histórico</h5>
         <br />
         <p>
           O Pelotão de Polícia Ambiental foi criado em 23 de março de 1996,

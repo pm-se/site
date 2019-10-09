@@ -4,11 +4,13 @@ export default class bptur extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão de Policiamento Turístico </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           O Batalhão de Policiamento Turístico (BPTur) foi instituído no âmbito
           da Polícia Militar do Estado de Sergipe pela Portaria Normativa nº
