@@ -4,11 +4,13 @@ export default class coe extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Comando de Operações Especiais </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           Criado no BGO nº 045, de 12 de março de 1996, assinado pelo então
           comandante geral da PMSE, coronel Pedro Paulo da Silva, e tendo como

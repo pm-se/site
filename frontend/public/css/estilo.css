@@ -2,6 +2,16 @@
 /*  min-width: 160px !important;*/
 /*}*/
 
+.card-especializadas {
+  padding: 0;
+  margin: 10px 20px 10px 20px;
+  min-width: 18rem;
+  max-width: 18rem;
+  text-align: center;
+  /* border-color: rgb(2%, 39%, 2%); */
+  border-color: #138496;
+}
+
 .alturaTela {
   margin-top: 104px;
 }

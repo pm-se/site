@@ -4,9 +4,12 @@ export default class cipcaes extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Companhia Independente de Policiamento com Cães </h1>
 
         <br />
+        <br />
+
+        <h5>Histórico</h5>
         <br />
         <p>
           A Companhia Independente de Policiamento com Cães (CIPCães) é

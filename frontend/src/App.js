@@ -40,6 +40,14 @@ import GATI from './components/unidades/especializadas/gati';
 import PPAmb from './components/unidades/especializadas/ppamb';
 
 import { BrowserRouter as Router, Route} from "react-router-dom";
+import CPMC from './components/unidades/cpmc/cpmc';
+import primeiroBPM from './components/unidades/cpmc/primeirobpm';
+import quintoBPM from './components/unidades/cpmc/quintobpm';
+import oitavoBPM from './components/unidades/cpmc/oitavobpm';
+import primeiraCIPM from './components/unidades/cpmc/primeiracipm';
+import segundaCIPM from './components/unidades/cpmc/segundacipm';
+import terceiraCIPM from './components/unidades/cpmc/terceiracipm';
+import sextaCIPM from './components/unidades/cpmc/sextacipm';
 
 
 function App() {
@@ -51,6 +59,14 @@ function App() {
             <Route path="/missao" component={Missao}/>
             <Route path="/comandante_geral" component={ComandanteGeral}/>
             <Route path="/organizacao" component={Organizacao}/>
+            <Route path="/unidades_cpmc" component={CPMC}/>
+            <Route path="/primeirobpm" component={primeiroBPM}/>
+            <Route path="/quintobpm" component={quintoBPM}/>
+            <Route path="/oitavobpm" component={oitavoBPM}/>
+            <Route path="/primeiracipm" component={primeiraCIPM}/>
+            <Route path="/segundacipm" component={segundaCIPM}/>
+            <Route path="/terceiracipm" component={terceiraCIPM}/>
+            <Route path="/sextacipm" component={sextaCIPM}/>
             <Route path="/unidades_especializadas" component={UnidadesEspecializadas}/>
             <Route path="/bpchoque" component={BPChoque}/>
             <Route path="/bpgd" component={BPGD}/>

@@ -4,11 +4,13 @@ export default class cptran extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Companhia de Polícia de Trânsito </h1>
 
         <br />
         <br />
 
+        <h5>Histórico</h5>
+        <br />
         <p>
           No princípio, no transcorrer dos anos 80, foi criado o Pelotão de
           Policiamento de Trânsito, vinculado ao Departamento Estadual de

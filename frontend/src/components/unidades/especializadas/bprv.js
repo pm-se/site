@@ -4,9 +4,12 @@ export default class bprv extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Batalhão de Polícia Rodoviária Estadual </h1>
 
         <br />
+        <br />
+
+        <h5>Histórico</h5>
         <br />
         <p>
           A Companhia de Polícia Rodoviária (CPRv) foi criada em 08 de novembro

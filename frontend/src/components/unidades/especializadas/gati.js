@@ -4,9 +4,11 @@ export default class gati extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Histórico </h1>
+        <h1> Grupo de Ações Táticas do Interior </h1>
 
         <br />
+        <br />
+        <h5>Histórico</h5>
         <br />
         <p>
           O Grupo de Ações Táticas do Interior (GATI), criado em 05 de junho de
