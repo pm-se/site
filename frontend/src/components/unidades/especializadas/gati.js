@@ -30,10 +30,10 @@ export default class gati extends Component {
         <br />
         <h5>Comandante</h5>
         <br />
-        <p>
-          Major QOPM Thiago Machado Costa Funcional do Comandante: (79)
-          98867-6264
-        </p>
+
+        <p>Major QOPM Thiago Machado Costa</p>
+        <p>Funcional do Comandante: (79) 98867-6264</p>
+        
         <br />
         <h5>Contato</h5>
         <br />
@@ -42,7 +42,7 @@ export default class gati extends Component {
           Coqueiros/SE
         </p>
         <p>Tel.: (79) 98867-6269 (Sargenteação) / 98867-6267 (Supervisor)</p>
-        <p>E-mail: gati@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:gati@pm.se.gov.br">gati@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

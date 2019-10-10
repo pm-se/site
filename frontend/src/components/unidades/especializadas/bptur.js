@@ -64,10 +64,8 @@ export default class bptur extends Component {
         <h5>Comandante</h5>
         <br />
 
-        <p>
-          Tenente Coreonel QOPM Eduardo Brandão Santos Filho Funcional do
-          Comandante: (79) 98867-6161
-        </p>
+        <p>Tenente Coreonel QOPM Eduardo Brandão Santos Filho</p>
+        <p>Funcional do Comandante: (79) 98867-6161</p>
 
         <br />
         <h5>Contatos BPTur</h5>
@@ -80,7 +78,7 @@ export default class bptur extends Component {
           Telefone: (79) 3223-2313 / 98867-5411 (Supervisor) / 98867-6294
           (Sargento de Dia)
         </p>
-        <p>E-mail: bptur@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:bptur@pm.se.gov.br">bptur@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>
@@ -94,15 +92,15 @@ export default class bptur extends Component {
         <br />
 
         <p>
-          <b>ÁREA:&nbsp;</b>Bairros Coroa do Meio e Atalaia.
+          <b>ÁREA:&nbsp;</b>Bairros <b>Coroa do Meio</b> e <b>Atalaia</b>.
         </p>
         <p>
           <b>Contatos</b>
         </p>
         <p>(79) 98867-1919 (Comando)</p>
-        <p>(79) 98867-6295 – Abrangência: Bairro Coroa do Meio.</p>
-        <p>(79) 98867-6296 – Abrangência: Bairro Atalaia.</p>
-        <p>(79) 98867-6297 – Abrangência: Orla da Atalaia.</p>
+        <p>(79) 98867-6295 – Abrangência: Bairro <b>Coroa do Meio</b>.</p>
+        <p>(79) 98867-6296 – Abrangência: Bairro <b>Atalaia</b>.</p>
+        <p>(79) 98867-6297 – Abrangência: <b>Orla da Atalaia</b>.</p>
 
         <br />
         <h5>2ª COMPANHIA – Indicativo: “GOLFINHO”</h5>
@@ -117,22 +115,22 @@ export default class bptur extends Component {
         </p>
         <p>(79) 98867-5912&nbsp;(Comando)</p>
         <p>(79) 98867-1818 (Sede da 2ª/BPTur)</p>
-        <p>(79) 98867-5757 – Abrangência: Bairro Jardins</p>
-        <p>(79) 98867-5482 – Abrangência: Bairro Grageru e 13 de Julho</p>
+        <p>(79) 98867-5757 – Abrangência: Bairro <b>Jardins</b></p>
+        <p>(79) 98867-5482 – Abrangência: Bairro <b>Grageru</b> e <b>13 de Julho</b></p>
 
         <br />
         <h5>3ª COMPANHIA – Indicativo: “ORCA”</h5>
         <br />
 
         <p>
-          <b>ÁREA:&nbsp;</b>Bairros Aruana, Mosqueiro e Zona de Expansão.
+          <b>ÁREA:&nbsp;</b>Bairros <b>Aruana</b>,  e <b>Zona de Expansão</b>.
         </p>
         <p>
           <b>Contatos</b>
         </p>
         <p>(79) 98867-6291 (Comando)</p>
-        <p>(79) 98867-6299 – Abrangência: Bairro Mosqueiro</p>
-        <p>(79) 98867-6294 – Abrangência: Zona de Expansão</p>
+        <p>(79) 98867-6299 – Abrangência: Bairro <b>Mosqueiro</b></p>
+        <p>(79) 98867-6294 – Abrangência: <b>Zona de Expansão</b></p>
       </div>
     );
   }

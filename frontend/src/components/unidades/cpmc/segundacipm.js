@@ -17,17 +17,17 @@ export default class segundacipm extends Component {
           <br />
           Tel: (79) 3262-1451 / 98867-6055 (Sargenteação)
           <br />
-          E-mail: 2cipm@pm.se.gov.br
+          E-mail: <a href="mailto:2cipm@pm.se.gov.br">2cipm@pm.se.gov.br</a>
         </p>
         <br />
         <h5>Área de atuação por subunidade</h5>
         <br />
         <p>
-          • Lince 01 – (79) 98877-7918 – Abrangência: Barra dos Coqueiros
+          • Lince 01 – (79) 98877-7918 – Abrangência: <b>Barra dos Coqueiros</b>
           <br />
-          • Lince 02 – (79) 98877-7049 – Abrangência: Atalaia Nova
-          <br />• Lince 03 – (79) 98862- 4825 – Abrangência: Povoado Jatobá e
-          demais povoados
+          • Lince 02 – (79) 98877-7049 – Abrangência: <b>Atalaia Nova</b>
+          <br />• Lince 03 – (79) 98862- 4825 – Abrangência: <b>Povoado Jatobá e
+          demais povoados</b>
         </p>
       </div>
     );

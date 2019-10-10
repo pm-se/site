@@ -124,7 +124,7 @@ export default class bpchoque extends Component {
 
         <p>Tel: (79) 3179-1290 / 98867- 6812</p>
 
-        <p>Email: choque@pm.se.gov.br</p>
+        <p>Email: <a href="mailto:choque@pm.se.gov.br">choque@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

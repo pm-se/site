@@ -32,7 +32,7 @@ export default class Rodape extends React.Component {
                                                 <span className="color-text-a">Telefone :</span> (79) 3226-7100
                                             </li>
                                             <li className="color-a">
-                                                <span className="color-text-a">E-mail :</span> pm5@pm.se.gov.br
+                                                <span className="color-text-a">E-mail :</span> <a href="mailto:pm5@pm.se.gov.br">pm5@pm.se.gov.br</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -134,7 +134,7 @@ export default class Rodape extends React.Component {
                 </section>
 
                 <div className="container">
-                    <div className="row justify-content-center">
+                    <div className="row text-center">
                         <div className="col-xs-6 col-sm-6 col-md-4 col-lg-2">
                             <a href="http://lai.se.gov.br/" target="_blank" rel="noopener noreferrer">
                                 <img src={process.env.PUBLIC_URL + '/img/lai.png'}

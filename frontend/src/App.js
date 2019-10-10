@@ -48,6 +48,16 @@ import primeiraCIPM from './components/unidades/cpmc/primeiracipm';
 import segundaCIPM from './components/unidades/cpmc/segundacipm';
 import terceiraCIPM from './components/unidades/cpmc/terceiracipm';
 import sextaCIPM from './components/unidades/cpmc/sextacipm';
+import CPMI from './components/unidades/cpmi/cpmi';
+import segundoBPM from './components/unidades/cpmi/segundobpm';
+import terceiroBPM from './components/unidades/cpmi/terceirobpm';
+import quartoBPM from './components/unidades/cpmi/quartobpm';
+import sextoBPM from './components/unidades/cpmi/sextobpm';
+import setimoBPM from './components/unidades/cpmi/setimobpm';
+import nonoBPM from './components/unidades/cpmi/nonobpm';
+import decimoBPM from './components/unidades/cpmi/decimobpm';
+import decimoPrimeiroBPM from './components/unidades/cpmi/decimoprimeirobpm';
+import QCG from './components/unidades/qcg/qcg';
 
 
 function App() {
@@ -67,6 +77,15 @@ function App() {
             <Route path="/segundacipm" component={segundaCIPM}/>
             <Route path="/terceiracipm" component={terceiraCIPM}/>
             <Route path="/sextacipm" component={sextaCIPM}/>
+            <Route path="/unidades_cpmi" component={CPMI}/>
+            <Route path="/segundobpm" component={segundoBPM}/>
+            <Route path="/terceirobpm" component={terceiroBPM}/>
+            <Route path="/quartobpm" component={quartoBPM}/>
+            <Route path="/sextobpm" component={sextoBPM}/>
+            <Route path="/setimobpm" component={setimoBPM}/>
+            <Route path="/nonobpm" component={nonoBPM}/>
+            <Route path="/decimobpm" component={decimoBPM}/>
+            <Route path="/decimoprimeirobpm" component={decimoPrimeiroBPM}/>
             <Route path="/unidades_especializadas" component={UnidadesEspecializadas}/>
             <Route path="/bpchoque" component={BPChoque}/>
             <Route path="/bpgd" component={BPGD}/>
@@ -82,6 +101,7 @@ function App() {
             <Route path="/getam" component={GETAM}/>
             <Route path="/gati" component={GATI}/>
             <Route path="/ppamb" component={PPAmb}/>
+            <Route path="/qcg" component={QCG}/>
             <Route path="/hinos_e_cancoes" component={HinosCancoes}/>
             <Route path="/artigos" component={Monografias}/>
             <Route path="/aquisicao_armamentos" component={AquisicaoArma}/>

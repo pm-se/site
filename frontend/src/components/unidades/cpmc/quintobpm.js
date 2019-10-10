@@ -58,7 +58,7 @@ export default class quintobpm extends Component {
           Telefone: 3256-9064 / 98867-5383 (Ajudancia) / 98867-5422 (Supervisor)
           / 98817-2458
         </p>
-        <p>E-mail:5bpm@pm.se.gov.br</p>
+        <p>E-mail:<a href="mailto:5bpm@pm.se.gov.br">5bpm@pm.se.gov.br</a></p>
         <br />
         <h5>Horário de funcionamento</h5>
         <br />
@@ -71,47 +71,51 @@ export default class quintobpm extends Component {
         <br />
         <ul>
           <li>
-            <b>1ª Companhia</b>
-            <br />
-            Área de Atuação: Piabeta – Marcos Freire I e III – Albano Franco
-            <br />
-            Endereço: Rua 7, s/n, Distrito Industrial, Nossa Senhora do
-            Socorro/SE.
-            <br />
-            Funcional Comandante: (79) 98867-5511
-            <br />
-            E-mail: 1cia.5bpm@pm.se.gov.br
+            <p>
+              <b>1ª Companhia</b>
+            </p>
+            <p>
+              Área de Atuação: <b>Piabeta</b> – <b>Marcos Freire I</b> e{" "}
+              <b>III</b> – <b>Albano Franco</b>
+            </p>
+            <p>
+              Endereço: Rua 7, s/n, Distrito Industrial, Nossa Senhora do
+              Socorro/SE.
+            </p>
+            <p>Funcional Comandante: (79) 98867-5511</p>
+            <p>E-mail: <a href="mailto:1cia.5bpm@pm.se.gov.br">1cia.5bpm@pm.se.gov.br</a></p>
           </li>
         </ul>
-        <p>&nbsp;</p>
+        <br />
         <ul>
           <li>
-            <b>
-              2ª Companhia
-              <br />
-            </b>
-            Área de Atuação: Socorro (Sede) – Fernando Collor – João Alves
-            <b>
-              <br />
-            </b>
-            Endereço: Rua 7, s/n, Distrito Industrial, Nossa Senhora do
-            Socorro/SE.
-            <br />
-            Funcional Comandante: (79) 98867-2200
-            <br />
-            E-mail: 2cia.5bpm@pm.se.gov.br
+            <p>
+              <b>2ª Companhia</b>
+            </p>
+            <p>
+              Área de Atuação: <b>Socorro</b> (Sede) – <b>Fernando Collor</b> –{" "}
+              <b>João Alves</b>
+            </p>
+            <p>
+              Endereço: Rua 7, s/n, Distrito Industrial, Nossa Senhora do
+              Socorro/SE.
+            </p>
+            <p>Funcional Comandante: (79) 98867-2200</p>
+            <p>E-mail: <a href="mailto:2cia.5bpm@pm.se.gov.br">2cia.5bpm@pm.se.gov.br</a></p>
           </li>
         </ul>
-        <p>&nbsp;</p>
+        <br />
         <ul>
           <li>
-            <b>3ª Companhia</b>
-            <br />
-            Área de Atuação: Parque dos Faróis – Jardim – Palestina
-            <br />
-            Funcional Comandante: (79) 98867-5678
-            <br />
-            E-mail: 3cia.5bpm@pm.se.gov.br
+            <p>
+              <b>3ª Companhia</b>
+            </p>
+            <p>
+              Área de Atuação: <b>Parque dos Faróis</b> – <b>Jardim</b> –{" "}
+              <b>Palestina</b>
+            </p>
+            <p>Funcional Comandante: (79) 98867-5678</p>
+            <p>E-mail: <a href="mailto:3cia.5bpm@pm.se.gov.br">3cia.5bpm@pm.se.gov.br</a></p>
           </li>
         </ul>
       </div>

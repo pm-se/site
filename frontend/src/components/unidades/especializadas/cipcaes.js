@@ -70,16 +70,17 @@ export default class cipcaes extends Component {
         <br />
         <h5>Comandante</h5>
         <br />
-        <p>
-          Capitão QOPM Moisés Morais de Souza Funcional do Comandante: (79)
-          98877-7044
-        </p>
+
+        <p>Capitão QOPM Moisés Morais de Souza</p>
+        <p>Funcional do Comandante: (79) 98877-7044</p>
+
         <br />
         <h5>Contato</h5>
         <br />
+        <p>Endereço: Rua Argentina, s/n, bairro América, Aracaju/SE</p>
+        <p> Telefones: (79) 98878-9033 </p>
         <p>
-          Endereço: Rua Argentina, s/n, bairro América, Aracaju/SE Telefones:
-          (79) 98878-9033 E-mail: canil@pm.se.gov.br
+          E-mail: <a href="mailto:canil@pm.se.gov.br">canil@pm.se.gov.br</a>
         </p>
 
         <br />

@@ -47,10 +47,10 @@ export default class ppamb extends Component {
         <br />
         <h5>Comandante</h5>
         <br />
-        <p>
-          Capitã QOPM Priscila Aragão do Nascimento e Maia Funcional do
-          Comandante: (79) 98867-6728
-        </p>
+        
+        <p>Capitã QOPM Priscila Aragão do Nascimento e Maia</p>
+        <p>Funcional do Comandante: (79) 98867-6728</p>
+
         <br />
         <h5>Contato</h5>
         <br />
@@ -59,7 +59,7 @@ export default class ppamb extends Component {
           Farolândia , Aracaju/SE.
         </p>
         <p>Tel: (79) 3248-8306 / 98853-6097 (Sede) / 98877-7043 (viatura)</p>
-        <p>E-mail: ppamb@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:ppamb@pm.se.gov.br">ppamb@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

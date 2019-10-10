@@ -73,7 +73,7 @@ export default class bpgd extends Component {
 
         <p>Tel: (79) 3241-2565 (Sargenteação) / 98867-5953</p>
 
-        <p>Email: 1cpgd.bpgd@pm.se.gov.br</p>
+        <p>Email: <a href="mailto:1cpgd.bpgd@pm.se.gov.br">1cpgd.bpgd@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

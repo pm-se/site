@@ -67,7 +67,7 @@ export default class besp extends Component {
 
         <p>Tel: (79) 98867-5244 (Guarda) / 98867-6061 (Comando)</p>
 
-        <p>Email: besp@pm.se.gov.br</p>
+        <p>Email: <a href="mailto:besp@pm.se.gov.br">besp@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

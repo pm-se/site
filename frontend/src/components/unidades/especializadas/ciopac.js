@@ -4,7 +4,10 @@ export default class ciopac extends Component {
   render() {
     return (
       <div className="container div-main">
-        <h1> Companhia Independente de Operações Policiais em Área de Caatinga </h1>
+        <h1>
+          {" "}
+          Companhia Independente de Operações Policiais em Área de Caatinga{" "}
+        </h1>
 
         <br />
         <br />
@@ -97,13 +100,11 @@ export default class ciopac extends Component {
         <h5>Comandante</h5>
         <br />
 
-        <p>
-          Capitão QOPM Fabricio Almeida Santos Funcional do Comandante: (79)
-          98867-6813
-        </p>
+        <p>Capitão QOPM Fabricio Almeida Santos</p>
+        <p> Funcional do Comandante: (79) 98867-6813</p>
 
         <br />
-        <h5>Contatos</h5>
+        <h5>Contato</h5>
         <br />
 
         <p>
@@ -111,7 +112,7 @@ export default class ciopac extends Component {
           Senhora da Glória/SE.
         </p>
         <p>Telefones: (79) 98867-6409 (Sargenteação) / 98867-6408</p>
-        <p>E-mail: ciopac@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:ciopac@pm.se.gov.br">ciopac@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

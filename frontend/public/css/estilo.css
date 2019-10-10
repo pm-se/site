@@ -1,6 +1,6 @@
-/*.img {*/
-/*  min-width: 160px !important;*/
-/*}*/
+.img {
+  max-width: 180px !important;
+}
 
 .card-especializadas {
   padding: 0;

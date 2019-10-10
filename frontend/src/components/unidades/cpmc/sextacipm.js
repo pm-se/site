@@ -17,16 +17,15 @@ export default class sextacipm extends Component {
           <br />
           Tel: (79) 98877-6958&nbsp; (Sargenteação)
           <br />
-          E-mail: 6cipm@pm.se.gov.br
+          E-mail: <a href="mailto:6cipm@pm.se.gov.br">6cipm@pm.se.gov.br</a>
         </p>
-        <p>&nbsp;</p>
+       
         <br />
         <h5>Área de atuação por subunidade</h5>
         <br />
         <p>
-          • Chacal 01/02 – (79) 98853-5696 – Abrangência: Centro.
-          <br />• Chacal 03/04 – (79) 98877-7175 – Abrangência: Cirurgia e São
-          José.
+          • Chacal 01/02 – (79) 98853-5696 – Abrangência: <b>Centro</b>.
+          <br />• Chacal 03/04 – (79) 98877-7175 – Abrangência: <b>Cirurgia</b> e <b>São José</b>.
         </p>
       </div>
     );

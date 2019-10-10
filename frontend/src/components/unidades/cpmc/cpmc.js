@@ -45,7 +45,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">1º Batalhão de Polícia Militar</h5>
+              <h5 className="card-title">1º Batalhão de Polícia Militar</h5>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">5º Batalhão de Polícia Militar</h5>
+              <h5 className="card-title">5º Batalhão de Polícia Militar</h5>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">
+              <h5 className="card-title">
               8º Batalhão de Polícia Militarl
               </h5>
             </div>
@@ -107,7 +107,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">1ª Companhia Independente de Polícia Militar</h5>
+              <h5 className="card-title">1ª Companhia Independente de Polícia Militar</h5>
             </div>
           </div>
 
@@ -127,7 +127,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">
+              <h5 className="card-title">
               2ª Companhia Independente de Polícia Militar
               </h5>
             </div>
@@ -149,7 +149,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">3ª Companhia Independente de Polícia Militar</h5>
+              <h5 className="card-title">3ª Companhia Independente de Polícia Militar</h5>
             </div>
           </div>
 
@@ -167,7 +167,7 @@ export default class cpmc extends Component {
                   />
                 </figure>
               </Link>
-              <h5 class="card-title">6ª Companhia Independente de Polícia Militar</h5>
+              <h5 className="card-title">6ª Companhia Independente de Polícia Militar</h5>
             </div>
           </div>
         </div>

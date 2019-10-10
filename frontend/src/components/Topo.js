@@ -210,10 +210,10 @@ export default class Topo extends React.Component {
                                             <Link to="/unidades_cpmc" className="dropdown-item">
                                                 Formulário
                                             </Link>
-                                            <Link to="/" className="dropdown-item">
+                                            <Link to="/unidades_cpmi" className="dropdown-item">
                                                 Etapas
                                             </Link>
-                                            <Link to="/" className="dropdown-item">
+                                            <Link to="/qcg" className="dropdown-item">
                                                 Edital
                                             </Link>
                                         </div>

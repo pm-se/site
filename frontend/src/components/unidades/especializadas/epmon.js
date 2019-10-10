@@ -53,11 +53,11 @@ export default class epmon extends Component {
         <br />
         <h5>Comandante</h5>
         <br />
-        <p>
-          CAP QOPM Carlos Eduardo Vieira Barreto Funcional do Comandante: (79)
-          98867-6057
-        </p>
+
+        <p>CAP QOPM Carlos Eduardo Vieira Barreto</p>
+        <p>Funcional do Comandante: (79) 98867-6057</p>
         <br />
+        
         <h5>Contato</h5>
         <br />
         <p>
@@ -65,7 +65,7 @@ export default class epmon extends Component {
           (Parque da Cidade).
         </p>
         <p>Tel: (79) 3215-5967</p>
-        <p>E-mail: cavalaria@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:cavalaria@pm.se.gov.br">cavalaria@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>
