@@ -84,10 +84,8 @@ export default class coe extends Component {
         <h5>Comandante</h5>
         <br />
 
-        <p>
-          Capitão QOPM Weniston Queiroz Souza De Gois Funcional do Comandante:
-          (79) 98867-6763
-        </p>
+        <p>Capitão QOPM Weniston Queiroz Souza De Gois</p>
+        <p> Funcional do Comandante: (79) 98867-6763</p>
 
         <br />
         <h5>Contato</h5>
@@ -97,7 +95,7 @@ export default class coe extends Component {
           Endereço: Rodovia dos Náufragos, s/nº, Bairro Atalaia, Aracaju/SE.
         </p>
         <p>Telefone: (79) 98867-6762</p>
-        <p>E-mail: coe@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:coe@pm.se.gov.br">coe@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>
@@ -105,7 +103,6 @@ export default class coe extends Component {
 
         <p>Expediente Administrativo: 07h00 às 13h00</p>
         <p>Expediente Operacional: 24 horas</p>
-        
       </div>
     );
   }

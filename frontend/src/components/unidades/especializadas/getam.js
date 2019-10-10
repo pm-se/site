@@ -10,7 +10,7 @@ export default class getam extends Component {
         <br />
         <h5>Histórico</h5>
         <br />
-        
+
         <p>
           O Grupamento Especial Tático de Motos (GETAM) foi criado no ano de
           2009, mais precisamente no dia 05 de junho, com a finalidade de
@@ -55,11 +55,11 @@ export default class getam extends Component {
         <br />
         <h5>Comandante</h5>
         <br />
-        <p>
-          Tenente Coronel QOPM Gilmar Santos Santana Funcional do Comandante:
-          (79) 98867-6655
-        </p>
+
+        <p>Tenente Coronel QOPM Gilmar Santos Santana</p>
+        <p>Funcional do Comandante: (79) 98867-6655</p>
         <br />
+        
         <h5>Contato</h5>
         <br />
         <p>
@@ -67,7 +67,7 @@ export default class getam extends Component {
           Aracaju/SE.
         </p>
         <p>Telefones: (79) 98853-6444 (Guarda) / 98867-6564 (Supervisor)</p>
-        <p>Email: getam@pm.se.gov.br</p>
+        <p>Email: <a href="mailto:getam@pm.se.gov.br">getam@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

@@ -18,21 +18,21 @@ export default class primeiracipm extends Component {
         </p>
         <p>(79) 98867-6647 (Comando do 1º Pel – São Cristovão)</p>
         <p>(79) 98867-6393 (Comando do 2º Pel – Itaporanga D´Ajuda)</p>
-        <p>E-mail: 1cipm@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:1cipm@pm.se.gov.br">1cipm@pm.se.gov.br</a></p>
         <br />
         <h5>Área de atuação por subunidade</h5>
         <br />
         <p>
-          • Pantera 01 – 98877-7787 – Abrangência: São Cristóvão
+          • Pantera 01 – 98877-7787 – Abrangência: <b>São Cristóvão</b>
           <br />
-          • Pantera 02 – 98867-6983 – Abrangência: São Cristóvão
+          • Pantera 02 – 98867-6983 – Abrangência: <b>São Cristóvão</b>
           <br />
-          • Pantera 03 – 98867-6146 – Abrangência: Eduardo Gomes
+          • Pantera 03 – 98867-6146 – Abrangência: <b>Eduardo Gomes</b>
           <br />
-          • Pantera 04 – 98853-6593 – Abrangência: Rosa Elze
+          • Pantera 04 – 98853-6593 – Abrangência: <b>Rosa Elze</b>
           <br />
-          • Pantera 05 – 98853-6539 – Abrangência: Itaporanga D´Ajuda
-          <br />• Pantera 06 – 99873-3391 – Abrangência: Caueira
+          • Pantera 05 – 98853-6539 – Abrangência: <b>Itaporanga D´Ajuda</b>
+          <br />• Pantera 06 – 99873-3391 – Abrangência: <b>Caueira</b>
         </p>
       </div>
     );

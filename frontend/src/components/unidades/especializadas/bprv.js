@@ -182,7 +182,7 @@ export default class bprv extends Component {
           Tel: (79) 3179-3567 / 98867-6356 (Supervisor) / 98867-7115 (Serviço de
           Atendimento ao Cidadão &#8211; SAC)
         </p>
-        <p>E-mail: bprv.ajudancia@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:bprv.ajudancia@pm.se.gov.br">bprv.ajudancia@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

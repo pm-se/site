@@ -51,13 +51,13 @@ export default class bpm extends Component {
         <h5>Contatos</h5>
         <br />
         <p>
-          Endereço: Avenida A-3, s/n, Bairro Santa Maria, no&nbsp;CISP (Centro
+          Endereço: Avenida A-3, s/n, Bairro Santa Maria, no CISP (Centro
           Integrado em Segurança Pública), Aracaju/SE.
           <br />
           Telefone: (79) 3179-4615 / 98867- 5970 (Comando) / 98867-7062
           (Subcomando) / 98867-5992 (Supervisor) / 98867-5902 (P3)
           <br />
-          E-mail:1bpm@pm.se.gov.br
+          E-mail: <a href="mailto:1bpm@pm.se.gov.br">1bpm@pm.se.gov.br</a>
         </p>
         <br />
         <h5>Horário de funcionamento</h5>
@@ -70,56 +70,52 @@ export default class bpm extends Component {
         <br />
         <ul>
           <li>
-            <b>1ª Companhia</b>
-            <br />
-            Área de Atuação:&nbsp;Bairros Santa Maria – 17 de Março
-            <br />
-            Endereço:&nbsp;Avenida A-3, s/n, Bairro Santa Maria, no&nbsp;CISP
-            (Centro Integrado em Segurança Pública), Aracaju/SE.
-            <br />
-            Telefone: (79) 98867-5973
-            <br />
-            Funcional Comandante: (79) 98867-6047
-            <br />
-            E-mail:&nbsp;1cia.1bpm@pm.se.gov.br
+            <p><b>1ª Companhia</b></p>
+            <p>
+            Área de Atuação: Bairros <b>Santa Maria</b> – <b>17 de Março</b></p>
+            <p>Endereço: Avenida A-3, s/n, Bairro Santa Maria, no CISP
+            (Centro Integrado em Segurança Pública), Aracaju/SE.</p>
+            
+            <p>Telefone: (79) 98867-5973</p>
+         
+            <p>Funcional Comandante: (79) 98867-6047</p>
+            
+            <p>E-mail: <a href="mailto:1cia.1bpm@pm.se.gov.br">1cia.1bpm@pm.se.gov.br</a></p>
           </li>
         </ul>
-        <p>&nbsp;</p>
+        <br />
         <ul>
           <li>
-            <b>
-              2ª Companhia
-              <br />
-            </b>
-            Área de Atuação:&nbsp;Bairros Farolândia, Aeroporto e São Conrado
-            <b>
-              <br />
-            </b>
-            Endereço: Avenida Francisco José da Fonseca “Avenida Gasoduto”,
-            s/nº, Conjunto Orlando Dantas, Aracaju/SE.
-            <br />
-            Telefone: (79) 98867-6464
-            <br />
+            
+            <p><b>
+              2ª Companhia</b>
+              </p>
+            <p>Área de Atuação: Bairros <b>Farolândia</b>, <b>Aeroporto</b> e <b>São Conrado</b></p>
+            <p>Endereço: Avenida Francisco José da Fonseca “Avenida Gasoduto”,
+            s/nº, Conjunto Orlando Dantas, Aracaju/SE.</p>
+            <p>Telefone: (79) 98867-6464</p>
+            <p>
             Funcional Comandante: (79) 98867-6098
-            <br />
-            E-mail: 2cia.1bpm@pm.se.gov.br
+            </p>
+            <p>
+            E-mail: <a href="mailto:2cia.1bpm@pm.se.gov.br">2cia.1bpm@pm.se.gov.br</a>
+            </p>
           </li>
         </ul>
-        <p>&nbsp;</p>
+        <br />
         <ul>
           <li>
-            <b>3ª Companhia</b>
-            <br />
-            Área de Atuação:&nbsp;Bairros Luzia, Inácio Barbosa, Ponto Novo, e
-            Jabotiana
-            <br />
-            Endereço: Rua Alcino Oliveira Neto, s/n, Bairro Luzia, Aracaju/SE.
-            <br />
-            Telefone: (79) 98867-6081
-            <br />
+            <p><b>3ª Companhia</b></p>
+            <p>
+            Área de Atuação: Bairros <b>Luzia</b>, <b>Inácio Barbosa</b>, <b>Ponto Novo</b> e <b>Jabotiana</b></p>
+            
+            <p>Endereço: Rua Alcino Oliveira Neto, s/n, Bairro Luzia, Aracaju/SE.</p>
+            <p>
+            Telefone: (79) 98867-6081</p>
+            <p>
             Funcional Comandante: (79) 98867-6049
-            <br />
-            E-mail: 3cia.1bpm@pm.se.gov.br
+            </p>
+            E-mail: <a href="mailto:3cia.1bpm@pm.se.gov.br">3cia.1bpm@pm.se.gov.br</a>
           </li>
         </ul>
       </div>

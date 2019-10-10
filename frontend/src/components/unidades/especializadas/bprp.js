@@ -100,7 +100,7 @@ export default class bprp extends Component {
 
         <p>Tel: (79) 3179-1971 / 98867-5597 / 98867-6329</p>
 
-        <p>E-mail: radio.patrulha@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:radio.patrulha@pm.se.gov.br">radio.patrulha@pm.se.gov.br</a></p>
 
         <br />
         <h5>Horário de Funcionamento</h5>

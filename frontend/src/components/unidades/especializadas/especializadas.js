@@ -34,7 +34,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão de Polícia de Choque</h5>
+              <h5 className="card-title">Batalhão de Polícia de Choque</h5>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão de Polícia de Guarda</h5>
+              <h5 className="card-title">Batalhão de Polícia de Guarda</h5>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão Especial de Segurança Patrimonial</h5>
+              <h5 className="card-title">Batalhão Especial de Segurança Patrimonial</h5>
             </div>
           </div>
 
@@ -82,7 +82,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão de Polícia de Radiopatrulha</h5>
+              <h5 className="card-title">Batalhão de Polícia de Radiopatrulha</h5>
             </div>
           </div>
 
@@ -98,7 +98,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão de Polícia Rodoviária Estadual</h5>
+              <h5 className="card-title">Batalhão de Polícia Rodoviária Estadual</h5>
             </div>
           </div>
 
@@ -114,7 +114,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Batalhão de Policiamento Turístico</h5>
+              <h5 className="card-title">Batalhão de Policiamento Turístico</h5>
             </div>
           </div>
 
@@ -130,7 +130,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Comando de Operações Especiais</h5>
+              <h5 className="card-title">Comando de Operações Especiais</h5>
             </div>
           </div>
 
@@ -146,7 +146,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Companhia de Polícia de Trânsito</h5>
+              <h5 className="card-title">Companhia de Polícia de Trânsito</h5>
             </div>
           </div>
 
@@ -162,7 +162,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Companhia Independente de Operações Policiais em Área de Caatinga</h5>
+              <h5 className="card-title">Companhia Independente de Operações Policiais em Área de Caatinga</h5>
             </div>
           </div>
 
@@ -178,7 +178,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Companhia Independente de Policiamento com Cães</h5>
+              <h5 className="card-title">Companhia Independente de Policiamento com Cães</h5>
             </div>
           </div>
 
@@ -194,7 +194,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Esquadrão de Polícia Montada</h5>
+              <h5 className="card-title">Esquadrão de Polícia Montada</h5>
             </div>
           </div>
 
@@ -210,7 +210,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Grupamento Especial Tático de Motos</h5>
+              <h5 className="card-title">Grupamento Especial Tático de Motos</h5>
             </div>
           </div>
 
@@ -226,7 +226,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Grupo de Ações Táticas do Interior</h5>
+              <h5 className="card-title">Grupo de Ações Táticas do Interior</h5>
             </div>
           </div>
 
@@ -242,7 +242,7 @@ export default class especializadas extends Component {
                 />
               </figure>
               </Link>
-              <h5 class="card-title">Pelotão de Polícia Ambiental</h5>
+              <h5 className="card-title">Pelotão de Polícia Ambiental</h5>
             </div>
           </div>
 

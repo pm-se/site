@@ -110,23 +110,25 @@ export default class cptran extends Component {
         <h5>Comandante</h5>
         <br />
 
-        <p>
-          Capitão QOPM Aldevan Santos Silveira Funcional do Comandante: (79)
-          98867-5169
-        </p>
+        <p>Capitão QOPM Aldevan Santos Silveira</p>
+        <p>Funcional do Comandante: (79) 98867-5169</p>
+
+        <br />
+        <h5>Contato</h5>
+        <br />
+
         <p>
           Endereço: Avenida Tancredo Neves, s/n, bairro Ponto Novo, anexo ao
           Detran/SE, Aracaju/SE
         </p>
         <p>Telefone: (79) 3226-2065 / 98816-6898 (Sargenteação)</p>
-        <p>E-mail: cptran@pm.se.gov.br</p>
+        <p>E-mail: <a href="mailto:cptran@pm.se.gov.br">cptran@pm.se.gov.br</a></p>
         <br />
         <h5>Horário de Funcionamento</h5>
         <br />
 
         <p>Expediente Administrativo: 07h00 às 13h00</p>
         <p>Expediente Operacional: 24 horas</p>
-        
       </div>
     );
   }
