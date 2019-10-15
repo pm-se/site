@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+
 import Topo from './components/Topo';
 import Rodape from './components/Rodape';
 import Principal from './components/Principal';
@@ -38,8 +40,6 @@ import EPMon from './components/unidades/especializadas/epmon';
 import GETAM from './components/unidades/especializadas/getam';
 import GATI from './components/unidades/especializadas/gati';
 import PPAmb from './components/unidades/especializadas/ppamb';
-
-import { BrowserRouter as Router, Route} from "react-router-dom";
 import CPMC from './components/unidades/cpmc/cpmc';
 import primeiroBPM from './components/unidades/cpmc/primeirobpm';
 import quintoBPM from './components/unidades/cpmc/quintobpm';
@@ -58,6 +58,16 @@ import nonoBPM from './components/unidades/cpmi/nonobpm';
 import decimoBPM from './components/unidades/cpmi/decimobpm';
 import decimoPrimeiroBPM from './components/unidades/cpmi/decimoprimeirobpm';
 import QCG from './components/unidades/qcg/qcg';
+import UnidadesAdministrativas from './components/unidades/administrativas/administrativas';
+import Almoxarifado from './components/unidades/administrativas/almoxarifado'
+import CFAP from './components/unidades/administrativas/cfap'
+import Corregedoria from './components/unidades/administrativas/corregedoria'
+import CSM from './components/unidades/administrativas/csm'
+import CGCC from './components/unidades/administrativas/cgcc'
+import HPM from './components/unidades/administrativas/hpm'
+import MuseuPMSE from './components/unidades/administrativas/museu'
+import SMCOM from './components/unidades/administrativas/smcom'
+import PRESMIL from './components/unidades/administrativas/presmil'
 
 
 function App() {
@@ -102,6 +112,16 @@ function App() {
             <Route path="/gati" component={GATI}/>
             <Route path="/ppamb" component={PPAmb}/>
             <Route path="/qcg" component={QCG}/>
+            <Route path="/unidades_administrativas" component={UnidadesAdministrativas}/>
+            <Route path="/almoxarifado" component={Almoxarifado}/>
+            <Route path="/cfap" component={CFAP}/>
+            <Route path="/corregedoria" component={Corregedoria}/>
+            <Route path="/csm" component={CSM}/>
+            <Route path="/cgcc" component={CGCC}/>
+            <Route path="/hpm" component={HPM}/>
+            <Route path="/museu" component={MuseuPMSE}/>
+            <Route path="/smcom" component={SMCOM}/>
+            <Route path="/presmil" component={PRESMIL}/>
             <Route path="/hinos_e_cancoes" component={HinosCancoes}/>
             <Route path="/artigos" component={Monografias}/>
             <Route path="/aquisicao_armamentos" component={AquisicaoArma}/>
