@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ListaVeiculosApreendidos from  './ListaVeiculosApreendidos';
 
 export default class CardEstatistica extends Component {
   constructor(props) {
@@ -12,10 +13,9 @@ export default class CardEstatistica extends Component {
     return (
       <div>
         <div className="card col-12 col-sm-2 col-md-6 col-lg-6 tamanho-minimo-estatisticas p-0 m-1">
-          <img
-            className="card-img-top"
-            src={process.env.PUBLIC_URL + "/img/001.png"}
-            alt="Card  cap"
+          <h1>
+              
+          </h1>
           />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
