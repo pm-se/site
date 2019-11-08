@@ -77,3 +77,8 @@
 .contrast .navbar-toggler span {
   background-color: white !important;
 }
+
+/* Mantém a cor verde do botão back-to-top */
+.contrast button.back-to-top {
+  background: #03743A !important;
+}
